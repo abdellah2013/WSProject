@@ -9,4 +9,14 @@
     <welcome-file>default.htm</welcome-file>
     <welcome-file>default.jsp</welcome-file>
   </welcome-file-list>
+  <servlet>
+    <description>Page de présentation des services de la banque</description>
+    <display-name>MyBanque</display-name>
+    <servlet-name>MyBanque</servlet-name>
+    <servlet-class>servlets.MyBanque</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>MyBanque</servlet-name>
+    <url-pattern>/MyBanque</url-pattern>
+  </servlet-mapping>
 </web-app>
